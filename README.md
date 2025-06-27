@@ -29,9 +29,9 @@ This project applies a fine-tuned YOLOv8 model to detect lung nodules on chest X
 - **Metrics** (train/val):
 
   ```
-  mAP@0.5 ≈ 0.88
-  Precision ≈ 0.92
-  Recall    ≈ 0.85
+  mAP@0.5 ≈ 0.95
+  Precision ≈ 0.96
+  Recall    ≈ 0.91
   ```
 
 ---
@@ -43,7 +43,7 @@ Despite strong results on the training and validation sets, the model performs p
 ### 🔍 Why?
 
 - **Domain shift**: the test set may come from different machines or labeling styles
-- **Overfitting**: YOLOv8 fits the training data well but fails to generalize
+- **Overfitting**: YOLOv8 fits the training and validation data well but fails to generalize
 - **Dataset size**: limited and not diverse enough
 
 ---
