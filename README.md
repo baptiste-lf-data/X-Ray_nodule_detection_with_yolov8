@@ -115,9 +115,9 @@ xray-yolov8/
 ├── requirements.txt       # For both interfaces
 ├── examples/              # Sample X-ray images and labels
 ├── notebooks/
-│   ├── 01_training.ipynb  # Training and model setup
-│   ├── 02_eval.ipynb      # Evaluation on val and test sets
-│   └── 03_fastapi_api.ipynb  # FastAPI backend logic
+│   ├── 01_model_comparison_yolo_and_wandb
+│   ├── 02_yolov8x_fine_tuning  
+│   └── 03_model_nodule_deployment
 ```
 
 ---
