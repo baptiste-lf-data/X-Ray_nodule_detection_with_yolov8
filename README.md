@@ -115,7 +115,7 @@ xray-yolov8/
 ├── requirements.txt       # For both interfaces
 ├── examples/              # Sample X-ray images and labels
 ├── notebooks/
-│   ├── 01_model_comparison_yolo_and_wandb
+│   ├── 01_model_comparison_yolo_with_wandb
 │   ├── 02_yolov8x_fine_tuning  
 │   └── 03_model_nodule_deployment
 ```
